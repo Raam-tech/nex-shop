@@ -391,4 +391,3 @@ export function searchProducts(query: string): Product[] {
 export function getAllCategories(): string[] {
   return Array.from(new Set(products.map((product) => product.category)));
 }
-

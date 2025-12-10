@@ -15,4 +15,3 @@ export default function TrustBadge({ icon, text, subtext }: TrustBadgeProps) {
     </div>
   );
 }
-
